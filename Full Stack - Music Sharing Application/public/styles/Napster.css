@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  background-image: url("../images/background/napster.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+input {
+  height: 25px;
+}
+button {
+  background-color: #3359a1;
+  color: white;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+table {
+  background-color: #3359a1;
+}
+
+fieldset {
+  font-weight: bold;
+  border-radius: 1%;
+}
+img,
+button {
+  cursor: pointer;
+}
+.search-button {
+  width: 150px;
+}
+
+.form-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2.5%;
+  border-radius: 2%;
+  width: 35%;
+  background-color: whitesmoke;
+  opacity: 90%;
+}
+.form-container table {
+  background-color: whitesmoke;
+}
+.music-listing-table-container {
+  margin: 25px;
+}
+.music-listing-table {
+  width: 100%;
+  opacity: 90%;
+}
+.music-listing-table thead {
+  background-color: #3359a1;
+  color: whitesmoke;
+  border: none;
+  line-height: 35px;
+}
+.music-listing-table tbody tr:nth-child(odd) {
+  background-color: #dfdbdb;
+  color: black;
+}
+.music-listing-table tbody tr:nth-child(even) {
+  background-color: whitesmoke;
+  color: black;
+}
+.music-listing-table td {
+  padding: 0;
+}
+
+.album-listing-container table {
+  background-color: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.favorite-albulm-item {
+  width: 188px;
+  height: 188px;
+}

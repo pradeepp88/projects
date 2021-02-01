@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Full Stack III Assignment</title>
+   <link href="styles/Napster.css" rel="stylesheet">
+   <script src="/socket.io/socket.io.js"></script>
+  </head>
+  <body style="text-align:center;">
+    <script src="scripts/main.js"></script>
+
+
+    <fieldset>
+      <legend>Music Search</legend>
+    
+  <form id="regForm" autocomplete="on" >
+     <div class="form-container">
+        <table>
+          <tr>
+            <td>  
+                <label>
+                  Artist:
+                </label>
+              </td>
+            <td>    
+              <input
+              id="txtArtist"
+              name="song"
+              type="text"
+              placeholder="Enter the Artist Name"
+              autofocus
+              size="50"
+            />
+         </td>
+          </tr>
+          <tr>
+            <td>
+                <label>Song:</label>
+              </td>
+              <td>
+                <input
+                id="txtSong"
+                name="song"
+                type="song"
+                placeholder="Enter the Song Title"
+                size="50"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+                <label>Albulm:</label>
+              </td>
+              <td>
+                <input
+                id="txtAlbulm"
+                name="albulm"
+                type="albulm"
+                placeholder="Enter the Albulm name"
+                size="50"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td> <label>Genre: </label></td>
+            <td> 
+            <input id="txtGenre" type="text" name="itemlist" list="items" size="50" placeholder="Select a Genre"/>
+              <datalist id="items">
+                <option value="Hard Rock"></option>
+                <option value="Country Rock"></option>
+                <option value="Hip Hop"></option>
+              </datalist>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <button id="btnSearch" type="button" value="Search" class="search-button">Search</button>
+              <button id="btnReset" type="button" value="Search" class="search-button">Reset</button>
+            </td>
+           
+        
+          </tr>
+        </table>
+    </div>
+    </form>
+    
+    <!-- Album Listings -->
+    <div class="album-listing-container">
+        <table id="favoriteListContainer">
+        </table>
+    </div>
+    <!-- Music Listings -->
+    <div class="music-listing-table-container">
+      <table id="musicTable" class="music-listing-table">
+        <thead>
+        <tr>
+            <th>Artist</th>
+            <th>Song</th>
+            <th>Time</th>
+            <th>Albulm</th>
+            <th>Rating</th>
+            <th>Genre</th>
+            <th></th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody id="searchResults">
+
+        </tbody>
+      </table>
+    </div>
+   
+  </body>
+  </html>

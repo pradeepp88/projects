@@ -1,0 +1,19 @@
+{
+  "name": "final-assignment-new",
+  "version": "1.0.0",
+  "description": "ERC721 Contract with Tests",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.3.0",
+    "@openzeppelin/test-helpers": "^0.5.10",
+    "truffle-assertions": "^0.9.2"
+  }
+}

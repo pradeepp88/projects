@@ -1,6 +1,6 @@
 # Projects completed as a part of Blockchain Development Course
 
-# Tools used:
-Frontend: HTML, CSS, React <br/>
-Backend: Node.js, SocketIO, React, MongoDB, Mocha <br/>
-Smart Contracts: Solidity, Truffle
+Tools used: <br/>
+<b>Frontend:<b/> HTML, CSS, React <br/>
+<b>Backend:<b/> Node.js, SocketIO, React, MongoDB, Mocha <br/>
+<b>Smart Contracts:<b/> Solidity, Truffle

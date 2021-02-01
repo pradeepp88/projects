@@ -1,0 +1,93 @@
+.App{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  box-sizing: border-box;
+  text-indent: 55px;
+  
+}
+body {
+  background-image: url("./images/watch.png");
+  background-size: 100%;
+
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+input,
+label {
+  display: block;
+}
+input {
+  font-weight: bold;
+  font-size: large;
+  width: 100%;
+  box-sizing: border-box;
+  line-height: 20px;
+  height: 48px;
+  padding: 12px;
+  border: 1px solid #adadad;
+  border-radius: 2px;
+  text-align: center;
+}
+label {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  display: block;
+  margin: 0 0 5px;
+  text-align: center;
+}
+
+button {
+  font-size: large;
+  width: 100%;
+  font-weight: bold;
+  color:black;
+  background-color: #8872db;
+  height: 40px;
+  border: 1px solid black;
+  cursor: -webkit-grab;
+}
+
+#timerTable {
+  width: 100%;
+}
+
+/* main timer container element class */
+.container {
+  background-color: lightskyblue;
+  width: 65%;
+  padding-bottom: 25px;
+  border-radius: 2%;
+  margin-top: 5%;
+  opacity: 0.75;
+}
+/* timer item class */
+.container-item {
+  font-weight: bold;
+  background-color: whitesmoke;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  width: 62%;
+  opacity: 0.75;
+  text-align: center;
+}
+
+.clock-item {
+  font-size: large;
+  font-weight: bold;
+  color: black;
+  line-height: 20px;
+  padding-top: 5px;
+  height: 12px;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  opacity: 0.75;
+  text-align: center;
+}
+
+

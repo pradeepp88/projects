@@ -6,5 +6,5 @@
 
 <b>Tools used:</b> <br/>
 <b>Frontend:</b> React <br/>
-<b>Backend:</b> Node.js, Express, FetchIO <br/>
+<b>Backend:</b> Node.js, Express, FetchAPI <br/>
 <b>Smart Contracts:</b> Solidity

@@ -8,3 +8,4 @@
 <b>Frontend:</b> React <br/>
 <b>Backend:</b> Node.js, Express, FetchAPI <br/>
 <b>Smart Contracts:</b> Solidity
+<b>Local Ethereum Network:</b> Ganache
